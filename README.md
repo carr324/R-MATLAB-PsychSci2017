@@ -1,4 +1,4 @@
-# R-psychsci2017
+# R-MATLAB-psychsci2017
 Example R and MATLAB code from Carr, Brady, &amp; Winkielman (Psych Science 2017):
 
 Here's some code to do similar psychometric analyses as those presented in Experiments 1-2 in Carr, Brady, & Winkielman (Psych Science 2017).  The paper can be accessed here:  https://evanwalkercarr.weebly.com/uploads/3/2/3/1/32319711/carr_et_al._-_2017_-_are_you_smiling_or_have_i_seen_you_before.pdf
