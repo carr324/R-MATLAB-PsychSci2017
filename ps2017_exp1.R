@@ -22,7 +22,7 @@ rawData <- read.csv(".csv")
 # rt = reaction time, in ms
 
 # Clean trials without responses or where RTs aren't between 200-3000 ms:
-cleanData <- filter(morpheus6_rawData, !is.na(resp), rt >= 200, rt <= 3000)
+cleanData <- filter(rawData, !is.na(resp), rt >= 200, rt <= 3000)
 
 # Log-transform RTs, and make subject id's a factor for modeling:
 cleanData$log10rt <- log10(cleanData$rt)
